@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+	<head>
+		<meta charset="utf-8" />
+		<title>Smart Business Planning and Development System</title>
+		<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+		<meta name="description" content="smart pest" />
+		<meta name="keywords" content="pest control/smart pest/ controller/pestguard" />
+		<meta name="author" content="" />
+		<meta name="MobileOptimized" content="320" />
+		<script src="js/jquery_min.js"></script>
+		<script>
+			$(window).on('load', function(){
+				$('.loading_icon').fadeOut();
+				$('.loading .title').addClass('active');
+				$('.loading').addClass('active');
+			});
+		</script>
+		<!--start theme style -->
+		<link rel="stylesheet" type="text/css" href="css/animate.css">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
+		<link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
+		<link rel="stylesheet" type="text/css" href="venobox/css/venobox.css" />
+		<link rel="stylesheet" type="text/css" href="css/owl.theme.default.css">
+		<link rel="stylesheet" type="text/css" href="css/flaticon.css">
+		<link rel="stylesheet" type="text/css" href="css/fonts.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/responsive.css" />
+		<link rel="shortcut icon" type="image/icon" href="images/title_icon.png" />
+	</head>
+	
+	<body>
+		<!-- preloader Start -->
+		<div class="loading" id="loading">
+			<img src="images/svg/Spinner.gif" class="loading_icon" />
+		</div>
+		
+		<!-- start:: top_header -->
+		
+		<div class="top_header">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<div class="button-wrapper">
+							<a href="login.html" class="btn btn-default pluse_icon">
+								<i class="fa fa-user" aria-hidden="true"></i>
+							</a>
+							<div class="btn btn-default social-trigger pluse_icon">
+								<i class="fa fa-comment" aria-hidden="true"></i>
+								<div class="icon-wrapper">
+									<a href="javascript:;"><img src="images/svg/facebook.svg" class="img" /></a>
+									<a href="javascript:;"><img src="images/svg/twitter.svg" class="img" /></a>
+									<a href="javascript:;"><img src="images/svg/instagram.svg" class="img" /></a>
+									<a href="javascript:;"><img src="images/svg/snapchat.svg" class="img" /></a>
+								</div>
+							</div>
+							<a href="index_ar.html" class="btn btn-default pluse_icon">
+								EN
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!-- end:: top_header -->
+		
+		<!--top header start-->
+		<div class="top_header_wrapper">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+						<div class="pst_logo hidden-xs">
+							<a href="index.html">
+								<h2 class="logo-title">
+									Noor
+									<span>Pest Control Services</span>
+								</h2>
+							</a>
+						</div>
+					</div>
+					<div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
+						<div class="top_header_add pst_toppadder30 pst_bottompadder30">
+							<ul>
+								<li class="main-icon-wrapper">
+									<i class="fa fa-comment pluse_icon" aria-hidden="true"></i>
+									<div class="icon-wrapper">
+										<a href="javascript:;"><img src="images/svg/facebook.svg" class="img" /></a>
+										<a href="javascript:;"><img src="images/svg/twitter.svg" class="img" /></a>
+										<a href="javascript:;"><img src="images/svg/instagram.svg" class="img" /></a>
+										<a href="javascript:;"><img src="images/svg/snapchat.svg" class="img" /></a>
+									</div>
+								</li>
+								<li class="lang-section pluse_icon" data-toggle="tooltip" data-placement="bottom" title="Switch To Arabic">
+									<a href="index_ar.html">
+										<span class="">EN</span>
+									</a>
+								</li>
+								<li class="" data-toggle="tooltip" data-placement="bottom" title="Login Now...">
+									<a href="login.html">
+										<i class="fa fa-user pluse_icon" aria-hidden="true"></i>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--header menu wrapper-->
+		<div class="menu_wrapper header-area hidden-menu-bar stick">
+			<div class="container">
+				<div class="menu_wrapper_mn">
+					<div class="row">
+						<div class="col-lg-10 col-md-10 col-sm-12 col-xs-12">
+							<nav class="navbar hidden-xs">
+								<!-- Brand and toggle get grouped for better mobile display -->
+								<div class="navbar-header">
+									<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+									</button>
+								</div>
+								<!-- Collect the nav links, forms, and other content for toggling -->
+								<div class="collapse navbar-collapse nav_response" id="bs-example-navbar-collapse-1">
+									<ul class="nav navbar-nav" id="nav_filter">
+										<li class="active"><a href="index.html">home</a></li>
+										<li><a href="index.html" class="scroll">Why Noor</a></li>
+										<li> <a href="index.html" class="scroll">our services</a></li>
+										<li><a href="library.html">Pest Library</a></li>
+										<li><a href="index.html" class="scroll">our team</a></li>
+										<li> <a href="index.html" class="scroll">contact us</a></li>
+										<li> <a href="#serviceModal" class="" data-toggle="modal">Service Request</a></li>
+									</ul>
+								</div>
+								<!-- /.navbar-collapse -->
+							</nav>
+							<div class="rp_mobail_menu_main_wrapper visible-xs">
+								<div class="row">
+									<div class="col-xs-6 header_nav_div">
+										<a href="index.html#"><h2 class="logo-title">Pest Control</h2></a>
+									</div>
+									<div class="col-xs-6">
+										<div id="toggle">
+											<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 31.177 31.177" style="enable-background:new 0 0 31.177 31.177;" xml:space="preserve" width="25px" height="25px">
+												<g>
+													<g>
+														<path class="menubar" d="M30.23,1.775H0.946c-0.489,0-0.887-0.398-0.887-0.888S0.457,0,0.946,0H30.23    c0.49,0,0.888,0.398,0.888,0.888S30.72,1.775,30.23,1.775z" fill="#000" />
+													</g>
+													<g>
+														<path class="menubar" d="M30.23,9.126H12.069c-0.49,0-0.888-0.398-0.888-0.888c0-0.49,0.398-0.888,0.888-0.888H30.23    c0.49,0,0.888,0.397,0.888,0.888C31.118,8.729,30.72,9.126,30.23,9.126z" fill="#000" />
+													</g>
+													<g>
+														<path class="menubar" d="M30.23,16.477H0.946c-0.489,0-0.887-0.398-0.887-0.888c0-0.49,0.398-0.888,0.887-0.888H30.23    c0.49,0,0.888,0.397,0.888,0.888C31.118,16.079,30.72,16.477,30.23,16.477z" fill="#000" />
+													</g>
+													<g>
+														<path class="menubar" d="M30.23,23.826H12.069c-0.49,0-0.888-0.396-0.888-0.887c0-0.49,0.398-0.888,0.888-0.888H30.23    c0.49,0,0.888,0.397,0.888,0.888C31.118,23.43,30.72,23.826,30.23,23.826z" fill="#000" />
+													</g>
+													<g>
+														<path class="menubar" d="M30.23,31.177H0.946c-0.489,0-0.887-0.396-0.887-0.887c0-0.49,0.398-0.888,0.887-0.888H30.23    c0.49,0,0.888,0.398,0.888,0.888C31.118,30.78,30.72,31.177,30.23,31.177z" fill="#000" />
+													</g>
+												</g>
+											</svg>
+										</div>
+									</div>
+								</div>
+								<div id="sidebar">
+									<h2 class="logo-title">Pest Control</h2>
+									<div id="toggle_close">&times;</div>
+									<div id='cssmenu' class="wd_single_index_menu">
+										<ul>
+											<li class="active"><a href="index.html">home</a></li>
+											<li><a href="index.html" class="scroll">Why Noor</a></li>
+											<li> <a href="index.html" class="scroll">our services</a></li>
+											<li><a href="library.html">Pest Library</a></li>
+											<li><a href="index.html" class="scroll">our team</a></li>
+											<li> <a href="index.html" class="scroll">contact us</a></li>
+											<li> <a href="#serviceModal" class="" data-toggle="modal">Service Request</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+							<div class="appointmnt_wrapper hidden-xs hidden-sm">
+								<ul>
+									<li>
+										<a href="#serviceModal" class="appint-btn hidden-xs hidden-sm" data-toggle="modal">
+											<div class="btn-front"><i class="fa fa-calendar"></i>Service Request</div>
+											<div class="btn-back"><i class="fa fa-calendar"></i>Service Request</div>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--top header end-->
+		
+		<div style='clear:both'></div>
+		
+		<!-- sub_header start -->
+		
+		<div class="sub_header">
+			<div class="overlay_header">
+				<h2 class="main-title">Pest Library</h2>
+				<div class="button-wrapper">
+					<a href="index.html" class="normal-link">Back To Home</a>
+					<i class="fa fa-angle-double-right" aria-hidden="true"></i>
+					<a href="library.html" class="normal-link">Library</a>
+					<i class="fa fa-angle-double-right" aria-hidden="true"></i>
+					<a href="ants.html" class="normal-link">Ants</a>
+				</div>
+			</div>
+		</div>
+		
+		<!-- sub_header end -->
+		
+		<!-- main_page_content start -->
+		
+		<div class="main_page_content">
+			<div class="container">
+				<div class="box-title">
+					<h2 class="main-title">Ants Control</h2>
+				</div>
+				
+				<div class="row">
+					<div class="col-lg-5">
+						<div class="img-wrapper">
+							<img src="images/ants.jpg" class="img" />
+						</div>
+					</div>
+					
+					<div class="col-lg-7">
+						<div class="content-wrapper">
+							<h2 class="main-title">Description</h2>
+							<p class="content">
+								Adult ants are one of three different colony castes; queens, workers or males. Queens are fertile females that lay all the eggs in a colony. Workers are females that do not reproduce, but do gather food; feed the larvae; and maintain and clean the nest. Workers are wingless, and it is the worker stage that is seen foraging around for food or defending the colony from intruders. The male ants are winged, but their only job is to mate with the queens during the swarming process.
+							</p>
+						</div>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-lg-5">
+						<div class="img-wrapper">
+							<img src="images/ants2.jpg" class="img" />
+						</div>
+					</div>
+					
+					<div class="col-lg-7">
+						<div class="content-wrapper">
+							<h2 class="main-title">Habits</h2>
+							<p class="content">
+								Ants inside your home or apartment can be a seasonal or year-round problem. Many ant species build their nests outdoors, and become a nuisance when they forage for food inside your home. Once they discover a good food source, they may continue to come inside, collect their food and leave to take the food back to their outdoor colony. However, other ant species enter the interior of the building, build their nest inside and become permanent indoor residents. Some of the more common ant species that may invade and choose to reside inside are pavement ants, carpenter ants, odorous house ants, thief ants, acrobat ants and pharaoh ants. Any of these ants can be challenging to control, but the pharaoh ant is known as one of the most, if not the most, difficult indoor ant to control.
+								<br><br>
+								Inside ants may be found near their food sources, moisture and in hidden, protected places like wall voids, under appliances, behind window frames and beneath floors. Ants are commensal pests, meaning they like to live close to people and eat some of the same things we do – sweets, meats, starches and liquids
+							</p>
+						</div>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-lg-5">
+						<div class="img-wrapper">
+							<img src="images/ants3.jpg" class="img" />
+						</div>
+					</div>
+					
+					<div class="col-lg-7">
+						<div class="content-wrapper">
+							<h2 class="main-title">Defense</h2>
+							<ol class="menu-wrapper">
+								<li class="menu-item">
+									Make your house as unwelcoming to ants as possible. If the ants can’t find readily available food and water sources, they will be less likely to try to come in. Any type of food or food particles can attract ants.
+								</li>
+								<li class="menu-item">
+									Store food, especially pet food, in tight containers. Wipe down your counters and floors frequently.
+								</li>
+								<li class="menu-item">
+									Most do-it-yourself ant control approaches kill only the ants you see. Some truly effective treatments can penetrate and destroy nests to help prevent these pests from returning. Also, home remedies don’t account for the fact that different kinds of ant infestations require different treatments.
+								</li>
+							</ol>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!-- main_page_content end -->
+		
+		<!-- footer section start-->
+		<div class="footer_wrapper pst_toppadder70 pst_bottompadder60">
+			<div class="footer_wrapper_second">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-4 col-md-4 col-xs-12 col-sm-12">
+							<div class="wrapper_second_about">
+								<div class="wrapper_first_image pst_bottompadder40">
+									<a href="index.html"><h2 class="logo-title">Pest Control</h2></a>
+								</div>
+								<div class="abotus_content">
+									<p>Fusce et sem elementum, mis nibh nec, tincidunt ipsum etiau eu ctor turpis. Quisque sitmi elit. Cras vel dui vel orciarel gravida. tincidunt ipsum etiau.Fusce et sem elementum, mis nibh nec, tincidunt ipsum etiau eu ctor turpis. Quisque sitmi elit. Cras vel dui vel orciarel gravida. tincidunt ipsum etiau.</p>
+								</div>
+								<div class="aboutus_social_icons">
+									<ul>
+										<li><a href="index.html#"><i class="fa fa-facebook"></i></a>
+										</li>
+										<li><a href="index.html#"><i class="fa fa-twitter"></i></a>
+										</li>
+										<li><a href="index.html#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+										</li>
+										<li> <a href="index.html#"><i class="fa fa-instagram" aria-hidden="true"></i> </a> </li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4 col-xs-12 col-sm-12">
+							<div class="wrapper_second_useful">
+								<h4>Usefull Link</h4>
+								<ul>
+									<li><a href="index.html#"><i class="fa fa-circle"></i>About Smartpest Company</a>
+									</li>
+									<li><a href="index.html#"><i class="fa fa-circle"></i> Pest ControlCompany Profile </a>
+									</li>
+									<li><a href="index.html#"><i class="fa fa-circle"></i>Pest Company Team </a>
+									</li>
+									<li><a href="index.html#"><i class="fa fa-circle"></i>Pest Team</a>
+									</li>
+									<li><a href="index.html#"><i class="fa fa-circle"></i>events</a> </li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4 col-xs-12 col-sm-12">
+							<div class="wrapper_second_blog">
+								<h4>Contact Us Now</h4>
+								<ul class="nav nav-tabs">
+									<li>
+										<a href='#form' data-toggle="tab">
+											<i class="fa fa-comment"></i>
+										</a>
+									</li>
+									<li>
+										<a href='#contact' data-toggle="tab">
+											<i class="fa fa-phone" aria-hidden="true"></i>
+										</a>
+									</li>
+								</ul>
+								<div class="tab-content">
+									<div class="tab-pane fade" id="form">
+										<form method="" action="">
+											<div class="row">
+												<div class="col-lg-6">
+													<div class="form-group">
+														<input type="text" class="form-control" name="" placeholder="Name" />
+													</div>
+												</div>
+												<div class="col-lg-6">
+													<div class="form-group">
+														<input type="text" class="form-control" name="" placeholder="Phone Number" />
+													</div>
+												</div>
+												<div class="col-lg-12">
+													<div class="form-group">
+														<input class="form-control" name="" rows="4" placeholder="E-Mail">
+													</div>
+												</div>
+												<div class="col-lg-12">
+													<div class="form-group">
+														<textarea class="form-control" name="" rows="4" placeholder="Message"></textarea>
+													</div>
+												</div>
+												<div class="col-lg-12">
+													<div class="form-group">
+														<button type="submit" class="btn btn-default">Send Message</button>
+													</div>
+												</div>
+											</div>
+										</form>
+									</div>
+									
+									<div class="tab-pane fade" id="contact">
+										<div class="media">
+											<div class="media-left">
+												<img src="images/svg/smartphone-call.svg" class="img" />
+											</div>
+											<div class="media-body">
+												<h5 class="title">Phone Numbers</h5>
+												<p class="content">+966 475 1124</p>
+												<p class="content">+966 475 1124</p>
+											</div>
+										</div>
+										
+										<div class="media">
+											<div class="media-left">
+												<img src="images/svg/fax.svg" class="img" />
+											</div>
+											<div class="media-body">
+												<h5 class="title">Fax Numbers</h5>
+												<p class="content">+966 475 1124</p>
+												<p class="content">+966 475 1124</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="section3_bottom_wrapper">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-10 col-md-10 col-xs-10 col-sm-10">
+						<div class="section3_copyright">
+							<p>Copyright 2018 <a href="index.html">  Pest Control </a>. all right reserved - Created by <a href="index.html">Maspix</a></p>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-2 col-xs-2 col-sm-2">
+						<div class="close_wrapper">
+							<a href="javascript:" id="return-to-top"><i class="fa fa-arrow-up"></i>top</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--footer wrapper end-->
+		
+		
+		<!-- serviceModal start -->
+		
+		<div class="modal fade" id="serviceModal" role="dialog">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4 class="modal-title">Service Request</h4>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					
+					<div class="modal-body">
+						<ul class="nav nav-tabs">
+							<li class="nav-item active">
+								<a class="nav-link" data-toggle="tab" href="#fastService">Fast Service Request</a>
+							</li>
+							
+							<li class="nav-item">
+								<a class="nav-link" data-toggle="tab" href="#normalService">Normal Service Request</a>
+							</li>
+						</ul>
+						
+						<form method="" action="">
+							<div class="tab-content">
+								<div class="tab-pane fade in active" id="fastService">
+									<p class="content">Please Enter Your Service Informations</p>
+									<div class="form-group">
+										<input type="text" class="form-control" name="" id="type" required />
+										<label for="type" class="control-label">Service Type</label>
+									</div>
+									<div class="form-group">
+										<input type="text" class="form-control" name="" id="phone" required />
+										<label for="phone" class="control-label">Phone Number</label>
+									</div>
+									<div class="form-group">
+										<input type="text" class="form-control" name="" id="location" required />
+										<label for="location" class="control-label">Location</label>
+									</div>
+									<div class="form-group">
+										<input type="text" class="form-control" name="" id="mail" required />
+										<label for="mail" class="control-label">E-Mail</label>
+									</div>
+									<div class="form-group">
+										<button type="submit" class="btn btn-default">Send Request</button>
+									</div>
+								</div>
+								
+								<div class="tab-pane fade" id="normalService">
+									<p class="content">Please Enter Your Service Informations</p>
+									<div class="form-group">
+										<input type="text" class="form-control" name="" id="type" required />
+										<label for="type" class="control-label">Service Type</label>
+									</div>
+									<div class="form-group">
+										<input type="text" class="form-control" name="" id="user" required />
+										<label for="user" class="control-label">Name</label>
+									</div>
+									<div class="form-group">
+										<input type="text" class="form-control" name="" id="phone" required />
+										<label for="phone" class="control-label">Phone Number</label>
+									</div>
+									<div class="form-group">
+										<input type="text" class="form-control" name="" id="location" required />
+										<label for="location" class="control-label">Location</label>
+									</div>
+									<div class="form-group">
+										<input type="text" class="form-control" name="" id="mail" required />
+										<label for="mail" class="control-label">E-Mail</label>
+									</div>
+									<div class="form-group">
+										<input type="text" class="form-control" name="" id="visit" required />
+										<label for="visit" class="control-label">Visit Times</label>
+									</div>
+									<div class="form-group">
+										<button type="submit" class="btn btn-default">Send Request</button>
+									</div>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!-- serviceModal end -->
+		
+		<!--main js files-->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/isotope.pkgd.min.js"></script>
+		<script src="venobox/js/venobox.min.js"></script>
+		<script src="js/jquery.easypiechart.min.js"></script>
+		<script src="js/jquery.inview.min.js"></script>
+		<script src="js/jquery.mixitup.min.js"></script>
+		<script src="js/jquery.countTo.js"></script>
+		<script src="js/wow.min.js"></script>
+		<script src="js/owl.carousel.js"></script>
+		<script src="js/custom.js"></script>
+		<!--js code-->
+		
+		
+	</body>
+
+</html>

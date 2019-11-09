@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+	<head>
+		<meta charset="utf-8" />
+		<title>Smart Business Planning and Development System</title>
+		<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+		<meta name="description" content="smart pest" />
+		<meta name="keywords" content="pest control/smart pest/ controller/pestguard" />
+		<meta name="author" content="" />
+		<meta name="MobileOptimized" content="320" />
+		<script src="js/jquery_min.js"></script>
+		<script>
+			$(window).on('load', function(){
+				$('.loading_icon').fadeOut();
+				$('.loading .title').addClass('active');
+				$('.loading').addClass('active');
+			});
+		</script>
+		<!--start theme style -->
+		<link rel="stylesheet" type="text/css" href="css/animate.css">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="css/flaticon.css">
+		<link rel="stylesheet" type="text/css" href="css/fonts.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/responsive.css" />
+		<link rel="shortcut icon" type="image/icon" href="images/title_icon.png" />
+	</head>
+	
+	<body>
+		
+		
+		<!-- start:: main-form--wrapper -->
+		
+		<div class="main-form--wrapper">
+			<div class="white-box">
+				<div class="icon-wrapper">
+					<img src="images/svg/user.svg" class="login_icon" />
+				</div>
+				<p class="intro-content">Please Enter Your Personal Information .</p>
+				<form method="" action="" class="form-wrapper">
+					<div class="form-group">
+						<input type="text" class="form-control" name="username" id="user"/> <!-- Input Name ==> username -->
+						<label for="user" class="control-label">Username</label>
+					</div>
+					<div class="form-group">
+						<input type="password" class="form-control" name="password" id="pass"/> <!-- Input Name ==> password -->
+						<label for="pass" class="control-label">Password</label>
+					</div>
+					<div class="form-group">
+						<button type="submit" class="btn btn-default">Login</button>
+						<a href="javascript:;" class="link">Forget Password ?</a>
+					</div>
+				</form>
+				<a href="index.html" class="back_link">Back To Home</a>
+			</div>
+		</div>
+		
+		<!-- end:: main-form--wrapper -->
+		
+		
+		<!--main js files-->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/wow.min.js"></script>
+		<script src="js/custom.js"></script>
+		<!--js code-->
+		
+		<script>
+		
+		$('.white-box .form-control').change(function() {
+			var self = this;
+			if($(self).val().length == 0) {
+				$(self).next().removeClass('active');
+			} else {
+				$(self).next().addClass('active');
+			}
+		});
+			
+		</script>
+		
+	</body>
+</html>
